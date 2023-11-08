@@ -113,12 +113,14 @@ body {
     display: none;
 }
 
-@media (max-width:500px) {
+@media (max-width:450px) {
     .card {
+        width: 85%;
         padding: 40px 20px;
     }
 
     .search input {
+        width: 75%;
         height: 40px;
         margin-right: 5px;
     }
@@ -130,13 +132,17 @@ body {
     }
 
     .col img {
-        width: 40px;
+        width: 35px;
         margin-right: 5px;
     }
 
     .humidity,
     .wind {
-        font-size: 20px;
+        font-size: 10px;
         margin-top: -6px;
     }
+    .col {
+        margin-right: 10px;
+    }
+    
 }
